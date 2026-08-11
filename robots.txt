@@ -1,0 +1,53 @@
+# ============================================================
+# ROBOTS.TXT — BISON PACKERS AND MOVERS
+# Optimized for #1 ranking in Ballari, Karnataka
+# ============================================================
+
+User-agent: *
+Allow: /
+
+# Allow all important pages
+Allow: /index.html
+Allow: /services.html
+Allow: /about.html
+Allow: /contact.html
+Allow: /blog.html
+Allow: /careers.html
+Allow: /cost-estimator.html
+Allow: /blog-house-shifting-checklist.html
+Allow: /blog-office-relocation-checklist.html
+Allow: /blog-packing-fragile-items.html
+Allow: /privacy-policy.html
+Allow: /terms.html
+Allow: /refund-policy.html
+
+# Allow all images
+Allow: /images/*.png
+Allow: /images/*.jpg
+Allow: /images/*.jpeg
+Allow: /images/*.svg
+Allow: /images/*.mp4
+
+# Disallow admin and system files
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /includes/
+Disallow: /css/
+Disallow: /js/
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /*.php$
+Disallow: /*.log$
+Disallow: /*.sql$
+Disallow: /tmp/
+Disallow: /temp/
+
+# Sitemap location
+Sitemap: https://bisonpackersandmovers.online/sitemap.xml
+
+# Crawl delay for less aggressive crawling
+Crawl-delay: 1
+
+# Host directive
+Host: bisonpackersandmovers.online
